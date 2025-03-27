@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+
+        table{
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even){ 
+            background-color: #e4e4e4;
+        }
+
+        tr:nth-child(odd){ 
+            background-color: #ffffff;
+        }
+
+        div#container{
+            overflow-x: auto;
+        }
+
+        .prod-fixado {
+            position: sticky; /* Fixa a coluna */
+            left: 0; /* Fixa a coluna à esquerda */
+            background-color: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus consequuntur repellat deserunt? Vero culpa ad laudantium non unde possimus cum. Reprehenderit ipsam corrupti quis eveniet blanditiis dolore cumque asperiores accusamus!</p>
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th scope="col" class="prod-fixado">Produto</th>
+                    <th scope="col">Janeiro</th>
+                    <th scope="col">Fev</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Abr</th>
+                    <th scope="col">Mai</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Ago</th>
+                    <th scope="col">Set</th>
+                    <th scope="col">Out</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="prod-fixado">TV 40"</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td class="prod-fixado">Home Theater</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td class="prod-fixado">Samsung Galaxy S20</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td class="prod-fixado">iPad Mini</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td class="prod-fixado">PlayStation 4</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td class="prod-fixado">Lava Louças</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+                <tr>
+                    <td class="prod-fixado">Amazon Echo</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                    <td>01</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
